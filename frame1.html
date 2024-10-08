@@ -1,0 +1,103 @@
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap" rel="stylesheet">
+            <link href="frame1.css" rel="stylesheet">
+        </head>
+        <body>
+            <div class="page1 flex flex-col">
+                <div class="top-bar flex flex-row justify-between">
+                    <div class="title w-[384px] h-[107px] ml-4 mt-2"><img src="Frame 9.png"></div>
+                    <div class="menu inline w-[615px] h-[60px] mt-12 text-3xl">
+                        <a href="#Home" class="home inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">home</a>
+                        <a href="#search" class="search inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">search</a>
+                        <a href="#generate" class="generate inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">generate</a>
+                        <a href="#write" class="write inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">write</a>
+                    </div>
+                    <div class="login flex justify-center pt-5 mr-2">
+                        <a href="#login" 
+                        class="login-in w-44 text-center pt-3 pb-3 h-16 text-3xl rounded-lg no-underline 
+                                hover:bg-black hover:text-white hover:no-underline 
+                                transition-colors duration-300 ease-in-out">
+                        Log in
+                        </a>
+                    </div>
+                </div>
+                <div class="about flex flex-col">
+                    <div class="part1 flex flex-row justify-between ml-2 mr-2">
+                        <div class="icons flex flex-col">
+                            <div class="icons1 mt-8 ml-3"><img src="icon1.png"></div>
+                            <div class="icons2 mt-3 ml-3"><img src="icon2.png"></div>
+                            <div class="icons3 mt-3 ml-3"><img src="icon3.png"></div>
+                            <div class="icons4 mt-3 ml-3"><img src="icon4.png"></div>
+                            <div class="icons5 mt-3 ml-3"><img src="icon5.png"></div>
+                            <div class="icons6 mt-3 ml-3"><img src="icon6.png"></div>
+                        </div>
+                        <div class="middle mt-10">
+                            <img src="title-dishcovery.png"><br><div class="text-white text-5xl m-8 pl-8">Your personal recipe finder,<br>generator, and forum.</div>
+                        </div>
+                        <div class="chef">
+                            <img src="chef.png">
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <div class="what bg-black text-white text-center rounded-3xl text-4xl ml-2 mr-2 pt-3 pb-6 z-0">What Dishcovery offers</div>
+                    </div>
+                    <div class="search-generate-upload flex flex-row text-white justify-between z-10">
+                        <div class="search-recipe rounded-b-3xl ml-10 text-center p-4 w-96"><h class="text-3xl">SEARCH RECIPES</h><br><br>
+                        <div class="text-2xl">Search through a vast<br>database of recipes by<br>ingredients or cuisine.<br>Find exactly what you're<br>craving with ease.<br>Make your Dishcovery today!</div>
+                        </div>
+                        <div class="generate-recipe rounded-b-3xl ml-10 text-center p-4 w-96"><h class="text-3xl">GENERATE RECIPES</h><br><br>
+                        <div class="text-2xl">Input your ingredients and<br>get personalized recipes<br>instantly.Ideal for crreating<br>meals with what's on hand<br>without thinking too much<br>about it!</div>
+                        </div>
+                        <div class="upload-recipe rounded-b-3xl ml-10 text-center p-4 mr-10 w-96"><h class="text-3xl">UPLOAD RECIPES</h><br><br>
+                        <div class="text-2xl">Contribute to our growing recipe<br>repository by uploading<br>your favourite dishes.<br>Help enhance the search<br>algorithm and provide users<br>with more diverse culinary<br>options!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular flex flex-col bg-white rounded-2xl text-center mt-10 mb-10"><br><br><h class="text-3xl">Popular Recipes</h><br>
+                <div class="popular-recipes flex flex-row justify-between mb-10">
+                    <a href="#pasta-recipe" class="hover:opacity-75 transition-opacity duration-300 hover:no-underline">
+                    <div class="popular-pasta flex flex-col w-80 h-80 items-center justify-center ml-5"><div><img src="popular-pasta.png"></div>
+                    <div class="pasta-text rounded-2xl p-2 w-44 z-10 text-xl hover:bg-black hover:text-white">PASTA</div></div></a>
+                <a href="#ptikka-recipe" class="hover:opacity-75 transition-opacity duration-300 hover:no-underline">
+                    <div class="popular-paneer-tikka flex flex-col w-80 h-80 items-center"><div><img src="popular-panneer-tikka.png"></div>
+                    <div class="tikka-text rounded-2xl p-2 w-44 z-10 text-xl hover:bg-black hover:text-white">PANEER TIKKA</div></div></a>
+                <a href="#veg-rolls-recipe" class="hover:opacity-75 transition-opacity duration-300 hover:no-underline">
+                    <div class="popular-veg-rolls flex flex-col w-80 h-80 justify-between items-center mr-6"><div><img src="popular-vegrolls.png"></div>
+                <div class="veg-rolls-text rounded-2xl p-2 w-44 z-10 justify-center text-xl hover:bg-black hover:text-white">VEG ROLLS</div>
+                </div></a>
+                </div>
+                </div>
+                <div class="follow-us flex flex-row justify-between">
+                    <div class="text-5xl ml-4 text-white mt-4 mb-2">FOLLOW US</div>
+                    <div class="flex flex-row mt-2 mb-2 mr-4">
+                    <a href="@dishcovery"><div class="mr-4"><img src="mdi_instagram.png"></div></a>
+                    <a href="@dishcovery"><div class="mr-4"><img src="mingcute_linkedin-line.png"></div></a>
+                    <a href="@dishcovery"><div class="mr-4"><img src="hugeicons_pinterest.png"></div></a>
+                    <a href="@dishcovery"><div class="mr-4"><img src="pajamas_twitter.png"></div></a>
+                    </div>
+                </div>
+                <div class="rights bg-black flex flex-row justify-between text-white">
+                    <div class="contact ml-12 mt-5">
+                        <h class="text-6xl">Dishcovery...</h><br><br><a href="#about" class="hover:no-underline text-4xl ml-4">About</a><br><a href="#blog" class="hover:no-underline text-4xl ml-4">Blog</a><br>
+                        <a href="#Recipe-Index" class="hover:no-underline text-4xl ml-4">Recipe Index</a><br>
+                        <a href="#contact" class="hover:no-underline text-4xl ml-4">Contact</a>
+                    </div>
+                    <div class="chef-img">
+                        <img src="chef.png">
+                    </div>
+                </div>
+                <div class="all-rights text-center bg-black text-white pb-4">
+                    © 2024 Dishcovery. All Rights Reserved
+                </div>
+            </div>
+            <script src="frame1.js"></script>
+        </body>
+    </html>
