@@ -1,0 +1,51 @@
+body {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    background-color: #F4D9D0;
+}
+.login{
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #921A40;
+    width:342px;
+    height:122px;
+    padding: 17px;
+}
+.login-in{
+    background-color: #F4D9D0;
+}
+.part1{
+    background-color: #921A40;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.middle{
+    font-size: 65px;
+    font-weight: 300;
+    line-height: 72.74px;
+    text-align: right;
+    font-family: 'Sansation', sans-serif;
+}
+@font-face {
+    font-family: 'Sansation';
+    src: url('fonts/Sansation_Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.what,.rights,.all-rights{
+    font-family: 'Sansation Light', sans-serif;
+}
+.upload-recipe,.generate-recipe,.search-recipe{
+    background-color: #921A40;
+    font-family: 'Sansation', sans-serif;
+}
+.pasta-text,.tikka-text,.veg-rolls-text{
+    background-color: #F4D9D0;
+}
+.follow-us{
+    background-color: #921A40;
+}
