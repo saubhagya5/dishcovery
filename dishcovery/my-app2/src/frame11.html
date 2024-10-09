@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" /-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap" rel="stylesheet">
+        <link href="frame11.css" rel="stylesheet">
+      </head>
+      <body style="background-color: #F4D9D0;">
+        <div class="page flex flex-col">
+        <div class="top-bar flex flex-row justify-between">
+            <div class="title w-[384px] h-[107px] ml-4 mt-2"><img src="Frame 9.png"></div>
+            <div class="menu inline w-[615px] h-[60px] mt-12 text-3xl">
+                <a href="#Home" class="home inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">home</a>
+                <a href="#search" class="search inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">search</a>
+                <a href="#generate" class="generate inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">generate</a>
+                <a href="#write" class="write inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">write</a>
+            </div>
+            <a href="#profile" class="profile flex flex-row mr-4 mt-4 hover:no-underline">
+                <img src="profile.jpg" class="photo w-16 h-16 mr-4 rounded-full mt-3 ml-2"><span id="username" class="user-name text-4xl text-white mt-4"></span>
+            </a>
+        </div>
+        <div class="bet1 w-3/4 h-36 mx-auto mt-4 rounded-xl flex flex-col items-center justify-between relative">
+    
+            <!-- Search Bar -->
+            <div class="search-bar flex flex-row w-2/3 max-w-xl h-16 rounded-xl justify-between items-center p-2 border border-gray-300 focus-within:border-blue-500 mt-10">
+                <input type="text" class="in-search text-xl p-2 w-full outline-none text-black" placeholder="Enter recipe name to search">
+                <a href="#search" class="search-img w-14 h-14 ml-4 transition-all duration-200 hover:w-16 hover:h-16 flex items-center justify-center">
+                    <img src="search.png" alt="Search" class="w-full h-full">
+                </a>
+            </div>
+            
+            <!-- 570+ Indicator in Bottom Right -->
+            <div class="flex flex-row justify-end items-center text-white text-2xl absolute bottom-4 right-4">
+                <img src="Ellipse 2.png" class="w-6 h-6 mr-2" alt="Ellipse Icon">
+                570+
+            </div>
+            
+        </div>
+        
+        
+        <div class="bet flex flex-row mt-3">
+            <a href="#salads" class="salads pl-20 hover:ml-96 hover:opacity-75"><img src="salads.png"> </a>
+            <a href="#dessert"  class="dessert pl-20 hover:no-underline hover:opacity-75"><img src="dessert.png"> </a>
+            <a href="#snacks"  class="snacks pl-20 hover:no-underline hover:opacity-75"><img src="snacks.png"> </a>
+            <a href="#meals"  class="meals pl-20 hover:no-underline hover:opacity-75"><img src="meals.png"> </a>
+            <a href="#pasta"  class="pasta pl-20 pr-20 hover:no-underline hover:opacity-75"><img src="pasta.png"> </a>
+        </div>
+        <div class="veg-nonveg flex flex-row justify-between mt-8 ml-36 mr-36 space-x-4">
+            <a class="veg" href="#veg">
+                <img src="vegetarian.png" alt="Vegetarian" class="hover:opacity-75">
+            </a>
+            <a class="non-veg" href="#non-veg">
+                <img src="non-veg.png" alt="Non-Vegetarian" class="hover:opacity-75">
+            </a>
+            <a class="vegan" href="#vegan">
+                <img src="vegan.png" alt="Vegan" class="hover:opacity-75">
+            </a>
+        </div>
+</div>
+    <script>
+        const username = "HITANSHI"; 
+        document.getElementById("username").textContent = username;
+      </script>
+      </body>      
+</html>

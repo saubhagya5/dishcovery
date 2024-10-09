@@ -1,0 +1,218 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent overflow scrolling */
+}
+
+/* Body Styling */
+body {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    background-color: #F4D9D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Page Styling */
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; /* Make the page take up the full height */
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden; /* Ensure no scrolling */
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%; /* Adjusted to take 10% of the screen height */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Title */
+.title {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 0%;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+}
+
+/* Menu Links */
+.menu a {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: Sansation Light;
+    font-size: 30px;
+    width: 130px;
+    height: 80px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #921A40;
+    border-radius: 75px 75px 0 75px;
+    width: 582px;
+    height: 122px;
+    padding: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    font-family: Sansation Light;
+font-size: 35px;
+font-weight: 300;
+line-height: 39.17px;
+text-align: left;
+text-decoration: none;
+}
+.profile img{
+    width: 75px;
+    height: 75px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 66%;
+    max-width: 640px;
+    height: 64px;
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+}
+
+/* Search Button */
+.search-img {
+    width: 56px;
+    height: 56px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-img:hover {
+    width: 64px;
+    height: 64px;
+}
+
+.search-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 570+ Indicator */
+.bet1 {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 16px;
+    background-color: #921A40;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.bet1 .text-570 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+    left: 35%;
+    padding: 10px;
+}
+
+/* Image Links */
+.bet {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.bet img{
+    width: 200px;
+    height: 237px;
+    padding: 6px;
+    margin-left: 50px;
+}
+.bet img:hover{
+    opacity: 0.75;
+}
+
+.veg-nonveg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+    gap: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.veg-nonveg img {
+    width: auto;
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.veg-nonveg img:hover {
+    opacity: 0.75;
+}
