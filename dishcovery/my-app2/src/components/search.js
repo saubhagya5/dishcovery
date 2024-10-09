@@ -17,56 +17,56 @@ const Search = () => {
   const username = "HITANSHI"; // Can be replaced with a dynamic value if needed
 
   return (
-    <div className="page flex flex-col">
-      <div className="top-bar flex flex-row justify-between">
-        <div className="title w-[384px] h-[107px] ml-4 mt-2">
+    <div className="page">
+      <div className="top-bar">
+        <div className="title">
           <img src={frame9} alt="Frame 9" />
         </div>
-        <div className="menu inline mt-12 text-3xl">
-          <a href="#Home" className="home inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">home</a>
-          <a href="#search" className="search inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">search</a>
-          <a href="#generate" className="generate inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">generate</a>
-          <a href="#write" className="write inline-block w-40 text-center text-black-500 p-3 hover:no-underline hover:bg-black hover:text-white rounded-xl">write</a>
+        <div className="menu">
+          <a href="#Home" className="home">home</a>
+          <a href="#search" className="search">search</a>
+          <a href="#generate" className="generate">generate</a>
+          <a href="#write" className="write">write</a>
         </div>
-        <a href="#profile" className="profile flex flex-row mr-4 mt-4 hover:no-underline">
-          <img src={profilePic} className="photo w-16 h-16 mr-4 rounded-full mt-3 ml-2" alt="Profile" />
-          <span id="username" className="user-name text-4xl text-white mt-4">{username}</span>
+        <a href="#profile" className="profile">
+          <img src={profilePic} className="photo" alt="Profile" />
+          <span id="username" className="user-name">{username}</span>
         </a>
       </div>
-      <div className="bet1 w-3/4 h-36 mx-auto mt-4 rounded-xl flex flex-col items-center justify-between relative">
+      <div className="bet1">
 
         {/* Search Bar */}
-        <div className="search-bar flex flex-row w-2/3 max-w-xl h-16 rounded-xl justify-between items-center p-2 border border-gray-300 focus-within:border-blue-500 mt-10">
-          <input type="text" className="in-search text-xl p-2 w-full outline-none text-black" placeholder="Enter recipe name to search" />
-          <a href="#search" className="search-img w-14 h-14 ml-4 transition-all duration-200 hover:w-16 hover:h-16 flex items-center justify-center">
+        <div className="search-bar">
+          <input type="text" className="in-search" placeholder="Enter recipe name to search" />
+          <a href="#search" className="search-img">
             <img src={searchImg} alt="Search" />
           </a>
         </div>
 
         {/* 570+ Indicator in Bottom Right */}
-        <div className="text-570 flex flex-row justify-end items-center text-white text-2xl absolute bottom-4 right-4">
-          <img src={ellipseImg} className="w-6 h-6 mr-2" alt="Ellipse Icon" />
+        <div className="text-570">
+          <img src={ellipseImg} className="" alt="Ellipse Icon" />
           570+
         </div>
 
       </div>
 
-      <div className="bet flex flex-row mt-3">
-        <a href="#salads" className="salads pl-20 hover:ml-96 hover:opacity-75"><img src={saladsImg} alt="Salads" /></a>
-        <a href="#dessert" className="dessert pl-20 hover:no-underline hover:opacity-75"><img src={dessertImg} alt="Dessert" /></a>
-        <a href="#snacks" className="snacks pl-20 hover:no-underline hover:opacity-75"><img src={snacksImg} alt="Snacks" /></a>
-        <a href="#meals" className="meals pl-20 hover:no-underline hover:opacity-75"><img src={mealsImg} alt="Meals" /></a>
-        <a href="#pasta" className="pasta pl-20 pr-20 hover:no-underline hover:opacity-75"><img src={pastaImg} alt="Pasta" /></a>
+      <div className="bet">
+        <a href="#salads" className="salads"><img src={saladsImg} alt="Salads" /></a>
+        <a href="#dessert" className="dessert"><img src={dessertImg} alt="Dessert" /></a>
+        <a href="#snacks" className="snacks"><img src={snacksImg} alt="Snacks" /></a>
+        <a href="#meals" className="meals"><img src={mealsImg} alt="Meals" /></a>
+        <a href="#pasta" className="pasta"><img src={pastaImg} alt="Pasta" /></a>
       </div>
-      <div className="veg-nonveg flex flex-row justify-between mt-8 ml-36 mr-36 space-x-4">
+      <div className="veg-nonveg">
         <a className="veg" href="#veg">
-          <img src={vegetarianImg} alt="Vegetarian" className="hover:opacity-75" />
+          <img src={vegetarianImg} alt="Vegetarian" className="" />
         </a>
         <a className="non-veg" href="#non-veg">
-          <img src={nonVegImg} alt="Non-Vegetarian" className="hover:opacity-75" />
+          <img src={nonVegImg} alt="Non-Vegetarian" className="" />
         </a>
         <a className="vegan" href="#vegan">
-          <img src={veganImg} alt="Vegan" className="hover:opacity-75" />
+          <img src={veganImg} alt="Vegan" className="" />
         </a>
       </div>
     </div>
