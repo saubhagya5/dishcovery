@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch frame11.js",
+        "program": "C:\\Users\\haric\\Documents\\dishcovery\\dishcovery\\frame11.js",
+        "outFiles": ["${workspaceFolder}/build/**/*.js"] // Adjust if you have a build folder
+      }
+    ]
+  }
+  

@@ -1,0 +1,254 @@
+/* frame1.css */
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .title {
+    width: 384px;
+    height: 107px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .menu {
+    display: inline-flex;
+    width: 615px;
+    height: 60px;
+    margin-top: 3rem;
+    font-size: 1.875rem; /* text-3xl */
+  }
+  
+  .menu a {
+    display: inline-block;
+    width: 10rem; /* w-40 */
+    text-align: center;
+    padding: 0.75rem; /* p-3 */
+    text-decoration: none; /* no-underline */
+    border-radius: 0.75rem; /* rounded-xl */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem; /* pt-5 */
+    margin-right: 0.5rem;
+  }
+  
+  .login a {
+    display: block;
+    width: 11rem; /* w-44 */
+    text-align: center;
+    padding-top: 0.75rem; /* pt-3 */
+    padding-bottom: 0.75rem; /* pb-3 */
+    height: 4rem; /* h-16 */
+    font-size: 1.875rem; /* text-3xl */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .part1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem; /* ml-2 */
+    margin-right: 0.5rem; /* mr-2 */
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icons img {
+    margin-top: 0.75rem; /* mt-3 */
+    margin-left: 0.75rem; /* ml-3 */
+  }
+  
+  .middle {
+    margin-top: 2.5rem; /* mt-10 */
+  }
+  
+  .middle img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-5xl {
+    font-size: 3rem; /* text-5xl */
+    margin: 2rem 0; /* m-8 */
+    padding-left: 2rem; /* pl-8 */
+  }
+  
+  .chef img {
+    display: block;
+  }
+  
+  .part2 .what {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 1.875rem; /* rounded-3xl */
+    font-size: 2.5rem; /* text-4xl */
+    margin-left: 0.5rem; /* ml-2 */
+    margin-right: 0.5rem; /* mr-2 */
+    padding-top: 0.75rem; /* pt-3 */
+    padding-bottom: 1.5rem; /* pb-6 */
+    z-index: 0;
+  }
+  
+  .search-generate-upload {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    z-index: 10;
+  }
+  
+  .search-generate-upload div {
+    border-radius: 1.875rem; /* rounded-b-3xl */
+    margin-left: 2.5rem; /* ml-10 */
+    text-align: center;
+    padding: 1rem; /* p-4 */
+    width: 24rem; /* w-96 */
+  }
+  
+  .search-generate-upload h2 {
+    font-size: 1.875rem; /* text-3xl */
+  }
+  
+  .search-generate-upload .text-2xl {
+    font-size: 1.5rem; /* text-2xl */
+  }
+  
+  .popular {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem; /* rounded-2xl */
+    text-align: center;
+    margin-top: 2.5rem; /* mt-10 */
+    margin-bottom: 2.5rem; /* mb-10 */
+  }
+  
+  .popular h2 {
+    font-size: 1.875rem; /* text-3xl */
+    margin: 2rem 0; /* br */
+  }
+  
+  .popular-recipes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem; /* mb-10 */
+  }
+  
+  .popular-recipes a {
+    transition: opacity 0.3s;
+  }
+  
+  .popular-recipes img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .popular-recipes div {
+    display: flex;
+    flex-direction: column;
+    width: 20rem; /* w-80 */
+    height: 20rem; /* h-80 */
+    align-items: center;
+  }
+  
+  .popular-recipes div:hover .hover\:opacity-75 {
+    opacity: 0.75;
+  }
+  
+  .popular-recipes div .rounded-2xl {
+    border-radius: 1.25rem; /* rounded-2xl */
+    padding: 0.5rem; /* p-2 */
+    width: 11rem; /* w-44 */
+    font-size: 1.25rem; /* text-xl */
+  }
+  
+  .popular-recipes div:hover .rounded-2xl {
+    background-color: black;
+    color: white;
+  }
+  
+  .follow-us {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .follow-us .text-5xl {
+    margin-left: 1rem; /* ml-4 */
+    color: white;
+    margin-top: 1rem; /* mt-4 */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .follow-us .flex {
+    margin-top: 0.5rem; /* mt-2 */
+    margin-bottom: 0.5rem; /* mb-2 */
+    margin-right: 1rem; /* mr-4 */
+  }
+  
+  .follow-us img {
+    width: 40px; /* Adjust size if necessary */
+    height: 40px; /* Adjust size if necessary */
+  }
+  
+  .rights {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .contact {
+    margin-left: 3rem; /* ml-12 */
+    margin-top: 1.25rem; /* mt-5 */
+  }
+  
+  .contact h2 {
+    font-size: 3.75rem; /* text-6xl */
+  }
+  
+  .contact a {
+    text-decoration: none; /* no-underline */
+    font-size: 2.5rem; /* text-4xl */
+    margin-left: 1rem; /* ml-4 */
+  }
+  
+  .all-rights {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem; /* pb-4 */
+  }
